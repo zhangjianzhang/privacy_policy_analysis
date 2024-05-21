@@ -9,11 +9,9 @@ This repository includes all experiment materials for the paper *Semantic Parsin
 * Results: the experiment results of data practice statements classification and semantic role instances annotation;
 ##  Model Files
 
-https://www.kaggle.com/models/mrwh1tegive/privacy-policy-classify-1st-collection?select=model_tps_best.pth
+The model files can be downloaded from Kaggle repository: https://www.kaggle.com/models/mrwh1tegive/privacy-policy-classify-1st-collection?select=model_tps_best.pth. These 4 models are used for privacy policy classification and semantic role labeling. 
 
-These 4 models are used for privacy policy classification and semantic role labeling. 
-
-- model_dr_best means that model which can classify data retention pp.
--  model_fpc_best means that model which can classify first party collection pp. 
-- model_tps_best means that model which can classify third party sharing pp. 
-- XML_model_srl can semantic role label the pp.
+- model_dr_best: classify data retention statements;
+- model_fpc_best: classify first party collection statements.;
+- model_tps_best: classify third party sharing statements;
+- XML_model_srl: identify semantic role instances contained in the above three types of statements.
